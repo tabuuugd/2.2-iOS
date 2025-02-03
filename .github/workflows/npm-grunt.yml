@@ -1,4 +1,4 @@
-name: 2.2 IPA Maker
+name: GDPS ANETH
 
 on:
   workflow_dispatch:
@@ -7,10 +7,10 @@ on:
         description: "GDPS Name"
         required: true
       url:
-        description: "GDPS URL (33 CHARACTERS)"
+        description: "https://gdpsanethfh.ps.fhgdps.com"
         required: true
       bundle:
-        description: "BUDNLE ID (23 CHARACTERS)"
+        description: "com.mathieuar.gdpsaneth"
         required: true
 
 jobs:
